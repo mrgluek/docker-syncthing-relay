@@ -1,11 +1,11 @@
 FROM alpine:latest
-MAINTAINER Kyle Manna <kyle@kylemanna.com>
+MAINTAINER Gluek <mrgluek@gmail.com>
 
 # Get upstream builds from: https://build.syncthing.net/job/strelaysrv/lastSuccessfulBuild/artifact/
 ENV NAME     strelaysrv
-ENV JOB      223
-ENV VERSION  v0.14.9+6-g81248c3
-ENV ARCH     linux-amd64
+ENV JOB      lastStableBuild
+ENV VERSION  v0.14.23+14-gfb6d453
+ENV ARCH     linux-arm
 ENV RELEASE  ${NAME}-${ARCH}-${VERSION}
 
 # Busybox wget needs TLS support, curl is less painful to get working
