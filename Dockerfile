@@ -4,7 +4,7 @@ MAINTAINER Gluek <mrgluek@gmail.com>
 # Get upstream builds from: https://build.syncthing.net/job/strelaysrv/lastSuccessfulBuild/artifact/
 ENV NAME     strelaysrv
 ENV JOB      lastStableBuild
-ENV VERSION  v0.14.23+14-gfb6d453
+ENV VERSION  v0.14.25+10-gee92ee0
 ENV ARCH     linux-arm
 ENV RELEASE  ${NAME}-${ARCH}-${VERSION}
 
